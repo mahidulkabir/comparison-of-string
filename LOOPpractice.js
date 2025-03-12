@@ -18,3 +18,7 @@ for (let i=0; i<school.length;i++ ){
 
 
 console.log(b);
+
+// Shortcut method 
+const pepsodent = school.split("").reverse().join("");
+console.log(pepsodent);
